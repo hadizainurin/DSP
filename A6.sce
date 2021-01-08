@@ -24,9 +24,9 @@ plot2d(y1,H(1:N))
 title("Single Band-reject ideal filter")
 xlabel("Frequency (Hz)")
 ylabel("Amplitude")
-subplot(3,1,3) 
 
 //Plot the impulse response
+subplot(3,1,3) 
 plot2d(impulse_response)
 title("Impulse Response")
 xlabel("Frequency (Hz)")
